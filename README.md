@@ -6,7 +6,7 @@ They are built from first principles from localized training data that has been 
 This approach has low levels of technical debt, is cleaner and avoids inheriting any bias from third-party tools.
 
 ## 1. NO PRETRAINED EMBEDDINGS
-All word and character embeddings use local orhtographies and are built from scratch from conllu annotated corpus. This ensures:
+All in-model word and character embeddings are dervied from localised orthographies in each conllu annotated corpus. This ensures:
 - Full auditability: unbroken audit trail from corpus annotation to model weights
 - No inherited biases from opaque upstream pretraining data (Wikipedia, Common Crawl, etc.)
 - Tokenization using UTF-8 local orthographies to avoid any external tooling conflicts
