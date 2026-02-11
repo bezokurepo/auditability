@@ -20,7 +20,7 @@ bezoku does not use BPE, WordPiece, SentencePiece or similar subword tokenizers 
 Each language model is trained exclusively on single language conllu corpus, ensuring:
 - No cross-lingual transfer from high-resource languages, which may prioritise a different (dominant) orthography
 - No multilingual model contamination
-Ensuring Indigenous and Low-Resource languages are prioritized
+- Ensuring Indigenous and Low-Resource languages are prioritized
 
 ## 4. LOWER TECHNICAL DEBT
 The model architecture has clean, linear data pipelines, especially for syntactic model development, especially excluding:
