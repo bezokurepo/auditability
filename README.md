@@ -3,7 +3,7 @@ Model auditability statement
 ## Indigenous and Low Resource Language focus
 bezoku models are designed for Indigenous and Low-Resource languages. 
 They are built from first principles from localized training data that has been annotated using the conllu format.
-This approach has low levels of technical debt, is cleaner and avoids inheriting any bias from third-party tools.
+This approach incurs low levels of technical debt, is cleaner and avoids inheriting bias from third-party tools.
 
 ## 1. NO PRETRAINED EMBEDDINGS
 All in-model word and character embeddings are dervied from localised orthographies in each conllu annotated corpus. This ensures:
